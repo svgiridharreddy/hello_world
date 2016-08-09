@@ -12,4 +12,8 @@ class ApplicationController < ActionController::Base
   	render html: "I am back"
   end
 
+  def again_goodbye
+  	render html: "goodbye!"
+  end
+
 end
